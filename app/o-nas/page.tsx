@@ -1,6 +1,10 @@
+import Link from "next/link";
+
 
 export default async function OnasPage() {
     return (
-        <h1>Witaj Robert</h1>
-    )
+        <div>
+            <h1>Witaj Robert</h1>
+            <Link href='/contact'>kontakt</Link>
+        </div>)
 }
